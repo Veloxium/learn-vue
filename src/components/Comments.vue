@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from 'vue'
-import type { comment } from '../types/comment'
+import type { comment } from '../../types.ts'
 import { defineProps } from 'vue'
 
 const props = defineProps<{

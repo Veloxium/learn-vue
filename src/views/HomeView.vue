@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import Form from '../components/Form.vue'
 import Comments from '../components/Comments.vue'
-import type { comment } from '../types/comment'
+import type { comment } from '../../types.ts'
 
 const title = ref('My First Vue App 🔥')
 const comments = ref<comment[]>(JSON.parse(localStorage.getItem('comments') || '[]'))

@@ -2,10 +2,7 @@
 import { ref, defineComponent } from 'vue'
 
 const props = defineProps<{
-  title: {
-    type: String
-    required: true
-  }
+  title: string
 }>()
 
 const emit = defineEmits<{
